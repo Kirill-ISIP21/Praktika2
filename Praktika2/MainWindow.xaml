@@ -1,0 +1,20 @@
+﻿<Window x:Class="Praktika2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Praktika2"
+        mc:Ignorable="d"
+        Title="Выручка двух цветочниц" FontSize="16" Height="315.441" Width="800">
+    <Viewbox>
+        <Grid>
+        <Button x:Name="btnCalculate" FontSize="16" Content="Вычислить" HorizontalAlignment="Left" Margin="304,158,0,0" VerticalAlignment="Top" Width="182" Height="40" Click="btnCalculate_Click"/>
+        <TextBox x:Name="tBoxRoz" FontSize="16" HorizontalAlignment="Left" Height="37" Margin="146,65,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151" PreviewTextInput="tBoxRoz_PreviewTextInput"/>
+        <TextBox x:Name="tBoxTulp" FontSize="16" HorizontalAlignment="Left" Height="37" Margin="486,65,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151" PreviewTextInput="tBoxTulp_PreviewTextInput"/>
+        <Label x:Name="lblRoz" FontSize="16" Content="Сколько продано роз по 50 рублей:" HorizontalAlignment="Left" Margin="24,13,0,0" VerticalAlignment="Top" Height="46" Width="352"/>
+        <Label x:Name="lblTulp" FontSize="16" Content="Сколько продано тюльпанов по 30 рублей:" HorizontalAlignment="Left" Margin="431,13,0,0" VerticalAlignment="Top" Height="46" Width="334"/>
+        <Label x:Name="lblAnswer" FontSize="16" Content="" HorizontalAlignment="Left" Margin="24,227,0,0" VerticalAlignment="Top" Height="46" Width="741"/>
+
+    </Grid>
+        </Viewbox>
+</Window>
